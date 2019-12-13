@@ -9,7 +9,8 @@ In our standard deploys we typically pull the OS ubuntu 18.04 image owned by Can
 
 NOTE: When running a ```terraform apply``` you may receive an error with the following:
 
-``` Error:Error launching source instance: OptInRequired: In order to use this AWS Marketplace product you need to accept terms and subscribe. To do so please visit https://aws.amazon.com/marketplace/pp?sku=b1e35cepur7ecue1bq883thxr
+``` 
+Error:Error launching source instance: OptInRequired: In order to use this AWS Marketplace product you need to accept terms and subscribe. To do so please visit https://aws.amazon.com/marketplace/pp?sku=b1e35cepur7ecue1bq883thxr
       status code:401, request id: 143db6ff-46be-40990a4bg-fe41949282bd 
 ``` 
       
