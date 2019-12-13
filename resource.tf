@@ -19,7 +19,7 @@ resource "aws_instance" "cisimage" {
 resource "aws_ebs_volume" "ebs" {
   availability_zone = "${var.availability_zone1}"
   # EBS volume size. Usually in GiB. Set as per requirements. 
-  size = 100
+  size = 500
   # Encrypt the disk
   encrypted = true
 }
@@ -33,3 +33,4 @@ resource "aws_volume_attachment" "ebs_attach" {
   instance_id = "${aws_instance.cisimage.id}"
   
 }
+
