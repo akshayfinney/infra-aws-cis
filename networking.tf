@@ -20,7 +20,7 @@ resource "aws_eip" "ip-cis" {
 resource "aws_subnet" "subnet1" {
     cidr_block = "${cidrsubnet(aws_vpc.cis_test.cidr_block,3,1)}"
     vpc_id = "${aws_vpc.cis_test.id}"
-    availability_zone = "${var.availability_zone1.id}"  
+    availability_zone = "${var.availability_zone1}"  
     
 }
 
