@@ -10,5 +10,5 @@ variable "aws_region" {
 
 variable "availability_zone1" {
     description = "Avaialbility Zone for VPC"
-    default = "us-west-2a"
+    default = "us-west-2b"
 }
